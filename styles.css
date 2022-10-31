@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body {
+  font-family: roboto;
+ }
+ a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+ }
+ .nav-links a {
+  color: #fff;
+ }
+ .logo {
+  font-size: 32px;
+ }
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+ }
+ .menu li:hover {
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: 0.3s ease;
+ }
+ .menu li {
+  padding: 5px 14px;
+ }
+.bgimage {
+  height:100vh;
+  background: url('https://continue.yorku.ca/web-scs/wp-content/uploads/2021/01/iStock-982744544-for-web-scaled.jpg');
+  background-size:cover;
+  position:relative;
+  height: 628px;
+}
+H1{
+  font-family: roboto;
+  color: aliceblue;
+  font-size: 4em;
+  text-align: center;
+  padding: 50px;
+}
+h2 {
+  font-family: roboto;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 30px;
+}
+.paper{
+  font-family: roboto;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 50px;
+}
+.about{
+  background-color: #679a9a;
+  padding: 50px;
+  height: 700px;
+}
+.work{
+  background-color: #a3b7b7;
+  padding: 50px;
+  height: 700px;
+}
+.resume{
+  background-color: #56a8a8;
+  height: 370px;
+}
+.contact{
+  background-color: #a1a8a8;
+  height: 300px;
+}
+footer{
+  background-color: #077070;
+  height: 50px;
+}
+h4 {
+  font-family: roboto;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 10px;
+}
+p {
+  margin: auto;
+  font-family: roboto;
+  font-style: italic;
+  font-size: 1em;
+  text-transform: capitalize;
+  color: aliceblue;
+  padding: 10px;
+} 
+th {
+  padding: 10px;
+  color: aliceblue;
+}
+td {
+  padding: 10px;
+  color: aliceblue;
+}
+
+/* div {
+  border: 5px;
+  border-style: solid;
+  border-color: navy;
+  margin: 25px;
+  padding: 25px;
+}*/
+a:active {
+  color: rgb(150, 206, 217);
+  text-decoration: none;
+  background-color: rgb(120, 169, 173);
+}
+
+.home_class{
+  padding: 50px;
+}
+
+img {
+  border-radius: 50%;
+  width : 400px;
+  height: 400px;
+  align-items: right;
+}
